@@ -1,0 +1,38 @@
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-navbar ul{
+    padding: 0;
+}
+.header-navbar ul li {
+    list-style: none;
+    display: inline-block;
+}
+.header-navbar ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    color: #000000;
+}
+a.login-page  {
+   background: #28a745;
+    color: #fff!important;
+}
+div#basic-navbar-nav a {
+    padding: 10px 20px;
+    color: #000;
+}
+.header-wrap.container a {
+    color: #000;
+    font-weight: 600;
+}
+span.nav-link {
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px;
+    text-transform: capitalize!important;
+    display: inline-block;
+}

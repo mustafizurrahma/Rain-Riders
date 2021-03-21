@@ -1,0 +1,58 @@
+.main-page {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-attachment: scroll;
+}
+
+.rides-item img {
+    width: 150px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.rides-item {
+    background: #fff;
+    padding: 15px 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.rides-item span {
+    display: block;
+}
+
+@media only screen and (max-width: 1199px) {
+    .rides-item img {
+        width: 150px;
+        margin-bottom: 15px;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .rides-item img {
+        width: 100px;
+        margin-bottom: 0px;
+        display: inline-block;
+    }
+    .main-page {
+        height: 115vh;
+    }
+    .main-content-wrap {
+        height: 115vh;
+    }
+}
+
+span.home-car {
+    display: unset;
+    font-weight: 700;
+}

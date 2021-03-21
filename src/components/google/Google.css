@@ -1,0 +1,18 @@
+.social-account-wrap button {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 25px;
+    position: relative;
+}
+.social-account-wrap i {
+    position: absolute;
+    left: 15px;
+    top: 13px;
+    display: inline-block;
+    font-size: 24px;
+}

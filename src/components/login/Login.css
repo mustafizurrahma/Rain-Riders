@@ -1,0 +1,83 @@
+.registetion-form input{
+    width:100%;
+    height:40px;
+    border: none;
+    border-bottom: 1px solid #000;
+    margin-bottom: 25px;
+}
+.login-area-wrap {
+    width: 55%;
+}
+.account-reqovery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.divide-area {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.account-reqovery input {
+    width: 20px;
+}
+.divide-area span {
+    position: relative;
+    display:block
+}
+.divide-area span:after {
+    content: '';
+    width: 30%;
+    height: 2px;
+    position: absolute;
+    background: #000;
+    left: 17%;
+    top: 12px;
+}
+.divide-area span::before {
+    content: '';
+    width: 30%;
+    height: 2px;
+    position: absolute;
+    background: #000;
+    right: 17%;
+    top: 12px;
+}
+.social-area {
+    padding-bottom: 50px;
+}
+.social-account-wrap a {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 25px;
+    position: relative;
+}
+.social-account-wrap a i {
+    margin-right: 20%;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+.registetion-form button.btn.btn-primary {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+span.remember-text {
+    position: relative;
+    top: -12px;
+    left: 10px;
+}
+span.nav-link {
+    color: #fff!important;
+    text-transform: capitalize!important;
+     background: #28a745;
+    padding: 10px 20px;
+}

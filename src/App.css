@@ -1,0 +1,72 @@
+body {
+    font-family: 'Montserrat', sans-serif!important;
+}
+
+.website-main-wrap {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+nav.main-nav {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.main-content-wrap {
+    padding-top: 10%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-logo a h2 {
+    color: #000;
+}
+
+form.registetion-form {
+    padding: 20px 30px;
+    box-shadow: 0px 0px 15px 0px #e9ecef;
+    background: #fff;
+    border-radius: 10px;
+}
+
+nav.navbar.navbar-expand-lg {
+    width: 100%;
+}
+
+@media only screen and (max-width: 991px) {
+    .login-area-wrap {
+        width: 80%!important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header-wrap.container a h2 {
+        font-size: 26px;
+    }
+    .login-area-wrap {
+        width: 95%!important;
+    }
+}
+
+::placeholder {
+    color: #1a73e863;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+input[type="date"] {
+    color: #1a73e863;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+span.title-color {
+    color: #007bff;
+}
