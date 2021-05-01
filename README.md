@@ -1,11 +1,11 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Live link](https://asm-riders.web.app/).
+This project was bootstrapped with [Live link](https://rain-riders.web.app/).
 
 
 
 Runs the app in the development mode.\
-Open [asm-riders](https://asm-riders.web.app/) to view it in the browser.
+Open [Rain Riders](https://rain-riders.web.app/) to view it in the browser.
 
 ## include this project
 ** React Router
